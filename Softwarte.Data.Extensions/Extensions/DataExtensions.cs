@@ -33,7 +33,7 @@ namespace Hermione.Data
 		{
 			using(var db = new DataLayer<K>())
 			{
-				db.CreateEntity(entity);
+				db.SaveEntity(entity);
 			}
 		}
 
