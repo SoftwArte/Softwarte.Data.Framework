@@ -5,10 +5,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.IO;
 using System.Linq;
 using System.Xml;
-using Hermione.Data.Model;
 
 
 namespace Hermione.Data
@@ -17,17 +17,21 @@ namespace Hermione.Data
 	{
 		#region Document
 
-		public static void Create(this Document entity)
+		public static void Create<T,K>(this T entity, K context)
+            where T: class, new()
+            where K: DbContext, new()
 		{
-			using(var db = new DataLayer<ModelContext>())
+			using(var db = new DataLayer<K>())
 			{
 				db.CreateEntity(entity);
 			}
 		}
 
-		public static void Save(this Document entity)
+		public static void Save<T,K>(this T entity, K context)
+            where T: class, new()
+            where K: DbContext, new()
 		{
-			using(var db = new DataLayer<ModelContext>())
+			using(var db = new DataLayer<K>())
 			{
 				db.CreateEntity(entity);
 			}
