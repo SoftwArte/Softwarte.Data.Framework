@@ -63,7 +63,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Hermione.Data.Common\Hermione.Data.Common.csproj">
+    <ProjectReference Include="..\Softwarte.Data.Common\Hermione.Data.Common.csproj">
       <Project>{33c47660-2b58-4c69-b1d0-9442e2d6a41f}</Project>
       <Name>Hermione.Data.Common</Name>
     </ProjectReference>
