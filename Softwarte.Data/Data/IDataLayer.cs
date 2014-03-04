@@ -1,17 +1,16 @@
-﻿/*
- * ­­© Copyright Hermione 2013.
- * Programmed by Rafa Hernández.
- * 
- * Modified:04/03/2013
- */
-
-using System;
-using System.Collections.Generic;
-using System.Linq.Expressions;
-using Hermione.Data.Common;
+﻿/************************************************
+ *	Generic interface of EF code first data layer..			
+ *	Programmed by: Rafael Hernández
+ *	Revision Date: 4/03/2014
+ *	Version: 1.0											
+ * **********************************************/
 
 namespace Hermione.Data
 {
+	using Hermione.Data.Common;
+	using System;
+	using System.Collections.Generic;
+	using System.Linq.Expressions;
 	public interface IDataLayer
 	{
 		ICollection<TEntity> GetAll<TEntity>(params string[] eagerLoadEntities) where TEntity : class ,new();

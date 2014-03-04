@@ -67,10 +67,6 @@
       <Project>{33c47660-2b58-4c69-b1d0-9442e2d6a41f}</Project>
       <Name>Hermione.Data.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Hermione.Data.Model\Hermione.Data.Model.csproj">
-      <Project>{0312202e-6c73-4419-ae95-5422c70f59af}</Project>
-      <Name>Hermione.Data.Model</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

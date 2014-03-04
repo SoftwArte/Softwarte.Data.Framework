@@ -1,26 +1,18 @@
-﻿/*
- * ­­© Copyright Hermione 2013.
- * Programmed by Rafa Hernández.
- * 
- * Modified:04/03/2013
- * 
- * 
- */
-
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Entity;
-using System.IO;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Xml;
-using Hermione.Data.Common;
-
+﻿/************************************************
+ *	Generic data layer for EF code first.			
+ *	Programmed by: Rafael Hernández
+ *	Revision Date: 4/03/2014
+ *	Version: 1.0											
+ * **********************************************/
 
 namespace Hermione.Data
 {
+	using Hermione.Data.Common;
+	using System;
+	using System.Collections.Generic;
+	using System.Data.Entity;
+	using System.Linq;
+	using System.Linq.Expressions;
 	public class DataLayer<TContext> : IDataLayer, IDisposable where TContext : DbContext, new()
 	{
 		private readonly TContext _context;

@@ -1,6 +1,9 @@
-﻿/*
-*
-*/
+﻿/************************************************
+ *	Generic data extensions.			
+ *	Programmed by: Rafael Hernández
+ *	Revision Date: 4/03/2014
+ *	Version: 1.0											
+ * **********************************************/
 
 using System;
 using System.Collections;
@@ -15,11 +18,9 @@ namespace Hermione.Data
 {
 	public static class Extensions
 	{
-		#region Document
-
 		public static void Create<T,K>(this T entity, K context)
-            where T: class, new()
-            where K: DbContext, new()
+			where T: class, new()
+			where K: DbContext, new()
 		{
 			using(var db = new DataLayer<K>())
 			{
@@ -28,16 +29,14 @@ namespace Hermione.Data
 		}
 
 		public static void Save<T,K>(this T entity, K context)
-            where T: class, new()
-            where K: DbContext, new()
+			where T: class, new()
+			where K: DbContext, new()
 		{
 			using(var db = new DataLayer<K>())
 			{
 				db.SaveEntity(entity);
 			}
 		}
-
-		#endregion
 
 	}
 }
