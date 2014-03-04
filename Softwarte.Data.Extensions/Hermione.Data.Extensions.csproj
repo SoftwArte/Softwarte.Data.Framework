@@ -59,9 +59,9 @@
       <Project>{33c47660-2b58-4c69-b1d0-9442e2d6a41f}</Project>
       <Name>Hermione.Data.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Softwarte.Data\Hermione.Data.csproj">
+    <ProjectReference Include="..\Softwarte.Data\Softwarte.Data.csproj">
       <Project>{f6fb0f4f-74f1-4cfb-8641-72fc44ab49ef}</Project>
-      <Name>Hermione.Data</Name>
+      <Name>Softwarte.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

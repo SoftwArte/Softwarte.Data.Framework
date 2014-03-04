@@ -5,9 +5,9 @@
  *	Version: 1.0											
  * **********************************************/
 
-namespace Hermione.Data
+namespace Softwarte.Data
 {
-	using Hermione.Data.Common;
+    using Softwarte.Data.Common;
 	using System;
 	using System.Collections.Generic;
 	using System.Data.Entity;

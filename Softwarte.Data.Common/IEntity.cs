@@ -5,7 +5,7 @@
  *	Version: 1.0											
  * **********************************************/
 
-namespace Hermione.Data.Common
+namespace Softwarte.Data.Common
 {
 	public interface IEntity
 	{

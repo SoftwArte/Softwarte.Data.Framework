@@ -5,17 +5,15 @@
  *	Version: 1.0											
  * **********************************************/
 
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.IO;
-using System.Linq;
-using System.Xml;
-
-
-namespace Hermione.Data
+namespace Softwarte.Data
 {
+    using System;
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.Data.Entity;
+    using System.IO;
+    using System.Linq;
+    using System.Xml;
 	public static class Extensions
 	{
 		public static void Create<T,K>(this T entity, K context)
