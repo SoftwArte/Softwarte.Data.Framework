@@ -7,8 +7,8 @@
     <ProjectGuid>{F6FB0F4F-74F1-4CFB-8641-72FC44AB49EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Hermione.Data</RootNamespace>
-    <AssemblyName>Hermione.Data</AssemblyName>
+    <RootNamespace>Softwarte.Data</RootNamespace>
+    <AssemblyName>Softwarte.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -24,9 +24,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\_release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -41,7 +41,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.0.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -59,13 +58,12 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Softwarte.Data.Common\Hermione.Data.Common.csproj">
+    <ProjectReference Include="..\Softwarte.Data.Common\Softwarte.Data.Common.csproj">
       <Project>{33c47660-2b58-4c69-b1d0-9442e2d6a41f}</Project>
-      <Name>Hermione.Data.Common</Name>
+      <Name>Softwarte.Data.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

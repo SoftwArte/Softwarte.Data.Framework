@@ -7,7 +7,7 @@
 
 namespace Softwarte.Data
 {
-    using Softwarte.Data.Common;
+	using Softwarte.Data.Common;
 	using System;
 	using System.Collections.Generic;
 	using System.Data.Entity;
