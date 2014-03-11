@@ -8,4 +8,4 @@ You can set the payload that came with your results.
 Lazy is disabled to work without proxies and avoid problems with web services.
 
 
-Only need create a model and instance data layer class with your entity type.
+Only need to create a model and instance the data layer class using your entity type.
