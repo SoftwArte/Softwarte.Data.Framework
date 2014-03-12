@@ -7,8 +7,11 @@
 
 namespace Softwarte.Data.Common
 {
-	public interface IEntity
-	{
+  /// <summary>
+  /// When needed a specilized funcionality based on a generic extensions.
+  /// </summary>
+  public interface IEntity
+  {
 
-	}
+  }
 }

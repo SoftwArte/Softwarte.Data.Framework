@@ -7,13 +7,8 @@
 
 namespace Softwarte.Data.Common
 {
-	using System;
-	using System.Collections;
-	using System.Collections.Generic;
-	using System.IO;
-	using System.Linq;
-	using System.Xml;
-	/// <summary>
+  using System.Collections.Generic;
+  /// <summary>
 	/// Collection of order clauses.
 	/// </summary>
 	public class OrderCollection
