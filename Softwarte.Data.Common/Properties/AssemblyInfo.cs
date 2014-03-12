@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Softwarte.Data.Common")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Softwarte")]
 [assembly: AssemblyProduct("Softwarte.Data.Common")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
